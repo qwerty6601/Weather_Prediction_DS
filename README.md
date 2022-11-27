@@ -6,3 +6,6 @@ Firstly, I scaled the whole dataset and saved the respective .csv files using Sa
 
 
 Also I wrote a simple script for running and comparing models using crossvalidation. I included linreg, Random Forest and Multilayer Perceptron, but feel free to add other models and use my code to help automatize tasks. With the code in Modeling.ipynb you could easily iterate through every possible combination of days, targets features and models to test and later evaluate the results.
+
+28.11.2022 (Gábor)
+I modified the existing code for Modeling and generated all data to a csv file under output folder.
