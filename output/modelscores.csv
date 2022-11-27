@@ -1,0 +1,217 @@
+,model,daynum,feature,target,error
+0,LinearRegression(),0,allfeatures,Max_temp,-0.20860458208824392
+1,LinearRegression(),0,onlytempfeatures,Max_temp,-0.21048837045602115
+2,LinearRegression(),0,wind_rainfeatures,Max_temp,-0.8774284687183462
+3,LinearRegression(),0,allfeatures,Min_temp,-0.17976051661935488
+4,LinearRegression(),0,onlytempfeatures,Min_temp,-0.18765193944630382
+5,LinearRegression(),0,wind_rainfeatures,Min_temp,-0.8665917585258412
+6,LinearRegression(),0,allfeatures,Mean_temp,-0.1734611728993431
+7,LinearRegression(),0,onlytempfeatures,Mean_temp,-0.1779200108118918
+8,LinearRegression(),0,wind_rainfeatures,Mean_temp,-0.8748675918702358
+9,LinearRegression(),1,allfeatures,Max_temp,-0.20618153083797014
+10,LinearRegression(),1,onlytempfeatures,Max_temp,-0.21022546508383963
+11,LinearRegression(),1,wind_rainfeatures,Max_temp,-0.8777717914128373
+12,LinearRegression(),1,allfeatures,Min_temp,-0.17532495604218762
+13,LinearRegression(),1,onlytempfeatures,Min_temp,-0.1824672031291556
+14,LinearRegression(),1,wind_rainfeatures,Min_temp,-0.8651447675104095
+15,LinearRegression(),1,allfeatures,Mean_temp,-0.1719368989971062
+16,LinearRegression(),1,onlytempfeatures,Mean_temp,-0.177645450127137
+17,LinearRegression(),1,wind_rainfeatures,Mean_temp,-0.8739396540998674
+18,LinearRegression(),2,allfeatures,Max_temp,-0.20406583602797213
+19,LinearRegression(),2,onlytempfeatures,Max_temp,-0.2088100629583527
+20,LinearRegression(),2,wind_rainfeatures,Max_temp,-0.8790658052423606
+21,LinearRegression(),2,allfeatures,Min_temp,-0.1740379508723154
+22,LinearRegression(),2,onlytempfeatures,Min_temp,-0.18032961348047688
+23,LinearRegression(),2,wind_rainfeatures,Min_temp,-0.865237844200984
+24,LinearRegression(),2,allfeatures,Mean_temp,-0.1703725189043585
+25,LinearRegression(),2,onlytempfeatures,Mean_temp,-0.17558996312861191
+26,LinearRegression(),2,wind_rainfeatures,Mean_temp,-0.8749996249414844
+27,LinearRegression(),3,allfeatures,Max_temp,-0.20304983605117047
+28,LinearRegression(),3,onlytempfeatures,Max_temp,-0.20775366397805609
+29,LinearRegression(),3,wind_rainfeatures,Max_temp,-0.8797132433448202
+30,LinearRegression(),3,allfeatures,Min_temp,-0.17335079699935657
+31,LinearRegression(),3,onlytempfeatures,Min_temp,-0.17838847308075176
+32,LinearRegression(),3,wind_rainfeatures,Min_temp,-0.8653728713355925
+33,LinearRegression(),3,allfeatures,Mean_temp,-0.1700567825462139
+34,LinearRegression(),3,onlytempfeatures,Mean_temp,-0.1752624056946831
+35,LinearRegression(),3,wind_rainfeatures,Mean_temp,-0.8754644501448452
+36,LinearRegression(),4,allfeatures,Max_temp,-0.2026207832250014
+37,LinearRegression(),4,onlytempfeatures,Max_temp,-0.20645573707100526
+38,LinearRegression(),4,wind_rainfeatures,Max_temp,-0.8799731288264414
+39,LinearRegression(),4,allfeatures,Min_temp,-0.1731643949253215
+40,LinearRegression(),4,onlytempfeatures,Min_temp,-0.17776347483280103
+41,LinearRegression(),4,wind_rainfeatures,Min_temp,-0.865182663017628
+42,LinearRegression(),4,allfeatures,Mean_temp,-0.17014984105394584
+43,LinearRegression(),4,onlytempfeatures,Mean_temp,-0.1748939064221424
+44,LinearRegression(),4,wind_rainfeatures,Mean_temp,-0.8759156556849728
+45,LinearRegression(),5,allfeatures,Max_temp,-0.20245517402239446
+46,LinearRegression(),5,onlytempfeatures,Max_temp,-0.20610710391694043
+47,LinearRegression(),5,wind_rainfeatures,Max_temp,-0.8802881676980873
+48,LinearRegression(),5,allfeatures,Min_temp,-0.17280032917362992
+49,LinearRegression(),5,onlytempfeatures,Min_temp,-0.17695856460015963
+50,LinearRegression(),5,wind_rainfeatures,Min_temp,-0.8655055864346627
+51,LinearRegression(),5,allfeatures,Mean_temp,-0.16985759905078862
+52,LinearRegression(),5,onlytempfeatures,Mean_temp,-0.1744848331466992
+53,LinearRegression(),5,wind_rainfeatures,Mean_temp,-0.875776473646086
+54,LinearRegression(),6,allfeatures,Max_temp,-0.2128012887335177
+55,LinearRegression(),6,onlytempfeatures,Max_temp,-0.205998493428784
+56,LinearRegression(),6,wind_rainfeatures,Max_temp,-0.8801670654198548
+57,LinearRegression(),6,allfeatures,Min_temp,-0.17818666727278248
+58,LinearRegression(),6,onlytempfeatures,Min_temp,-0.17712217982120787
+59,LinearRegression(),6,wind_rainfeatures,Min_temp,-0.8658520982641106
+60,LinearRegression(),6,allfeatures,Mean_temp,-0.17783466314234833
+61,LinearRegression(),6,onlytempfeatures,Mean_temp,-0.1741057383800064
+62,LinearRegression(),6,wind_rainfeatures,Mean_temp,-0.8758804447391159
+63,LinearRegression(),7,allfeatures,Max_temp,-0.20151795801939193
+64,LinearRegression(),7,onlytempfeatures,Max_temp,-0.20573355845891209
+65,LinearRegression(),7,wind_rainfeatures,Max_temp,-0.8795027147817333
+66,LinearRegression(),7,allfeatures,Min_temp,-0.17331656466103765
+67,LinearRegression(),7,onlytempfeatures,Min_temp,-0.1771655971278283
+68,LinearRegression(),7,wind_rainfeatures,Min_temp,-0.8658115159161541
+69,LinearRegression(),7,allfeatures,Mean_temp,-0.1700627406006517
+70,LinearRegression(),7,onlytempfeatures,Mean_temp,-0.17437532341635947
+71,LinearRegression(),7,wind_rainfeatures,Mean_temp,-0.8754477112598631
+72,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,allfeatures,Max_temp,-0.22176320912834724
+73,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,onlytempfeatures,Max_temp,-0.23280778889625564
+74,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,wind_rainfeatures,Max_temp,-0.8935035846450228
+75,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,allfeatures,Min_temp,-0.19624685705717818
+76,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,onlytempfeatures,Min_temp,-0.215359679241213
+77,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,wind_rainfeatures,Min_temp,-0.8867882289440159
+78,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,allfeatures,Mean_temp,-0.18860702409426627
+79,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,onlytempfeatures,Mean_temp,-0.20305769451531167
+80,"RandomForestRegressor(max_depth=15, n_estimators=150)",0,wind_rainfeatures,Mean_temp,-0.8910558259869749
+81,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,allfeatures,Max_temp,-0.21272766224408163
+82,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,onlytempfeatures,Max_temp,-0.2216982229882721
+83,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,wind_rainfeatures,Max_temp,-0.8720429735571844
+84,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,allfeatures,Min_temp,-0.1848980422612545
+85,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,onlytempfeatures,Min_temp,-0.19588265529563076
+86,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,wind_rainfeatures,Min_temp,-0.8567704035686573
+87,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,allfeatures,Mean_temp,-0.18080608114323002
+88,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,onlytempfeatures,Mean_temp,-0.1888216747270845
+89,"RandomForestRegressor(max_depth=15, n_estimators=150)",1,wind_rainfeatures,Mean_temp,-0.8639407778627337
+90,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,allfeatures,Max_temp,-0.213991760989584
+91,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,onlytempfeatures,Max_temp,-0.2213952266496248
+92,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,wind_rainfeatures,Max_temp,-0.8545164952221569
+93,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,allfeatures,Min_temp,-0.18394236334935987
+94,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,onlytempfeatures,Min_temp,-0.19186198856826625
+95,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,wind_rainfeatures,Min_temp,-0.8406633475954554
+96,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,allfeatures,Mean_temp,-0.17791607045294597
+97,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,onlytempfeatures,Mean_temp,-0.1867658608121315
+98,"RandomForestRegressor(max_depth=15, n_estimators=150)",2,wind_rainfeatures,Mean_temp,-0.8482497683995571
+99,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,allfeatures,Max_temp,-0.21275354061241
+100,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,onlytempfeatures,Max_temp,-0.22184983556329385
+101,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,wind_rainfeatures,Max_temp,-0.8374167587205725
+102,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,allfeatures,Min_temp,-0.18344134872137172
+103,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,onlytempfeatures,Min_temp,-0.18898443789876238
+104,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,wind_rainfeatures,Min_temp,-0.8236765445825179
+105,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,allfeatures,Mean_temp,-0.17939999715390473
+106,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,onlytempfeatures,Mean_temp,-0.18747712092806962
+107,"RandomForestRegressor(max_depth=15, n_estimators=150)",3,wind_rainfeatures,Mean_temp,-0.8319670889897391
+108,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,allfeatures,Max_temp,-0.20949120937405658
+109,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,onlytempfeatures,Max_temp,-0.21668635555618732
+110,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,wind_rainfeatures,Max_temp,-0.8264020554927811
+111,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,allfeatures,Min_temp,-0.18355727224132126
+112,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,onlytempfeatures,Min_temp,-0.18790906291113135
+113,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,wind_rainfeatures,Min_temp,-0.8120234783894196
+114,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,allfeatures,Mean_temp,-0.17782765942118597
+115,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,onlytempfeatures,Mean_temp,-0.1857612986697817
+116,"RandomForestRegressor(max_depth=15, n_estimators=150)",4,wind_rainfeatures,Mean_temp,-0.8209297610908568
+117,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,allfeatures,Max_temp,-0.2098894628144933
+118,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,onlytempfeatures,Max_temp,-0.21768894415840934
+119,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,wind_rainfeatures,Max_temp,-0.8187373528109401
+120,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,allfeatures,Min_temp,-0.182419610363534
+121,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,onlytempfeatures,Min_temp,-0.18774749153034156
+122,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,wind_rainfeatures,Min_temp,-0.8081160350037265
+123,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,allfeatures,Mean_temp,-0.17691656869109204
+124,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,onlytempfeatures,Mean_temp,-0.18522738442712783
+125,"RandomForestRegressor(max_depth=15, n_estimators=150)",5,wind_rainfeatures,Mean_temp,-0.8141857550225536
+126,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,allfeatures,Max_temp,-0.2073506123447058
+127,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,onlytempfeatures,Max_temp,-0.2171310576419477
+128,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,wind_rainfeatures,Max_temp,-0.8093130551546434
+129,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,allfeatures,Min_temp,-0.1829476170036587
+130,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,onlytempfeatures,Min_temp,-0.1875048468507557
+131,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,wind_rainfeatures,Min_temp,-0.8005563154039782
+132,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,allfeatures,Mean_temp,-0.17560665293301747
+133,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,onlytempfeatures,Mean_temp,-0.18478711674977105
+134,"RandomForestRegressor(max_depth=15, n_estimators=150)",6,wind_rainfeatures,Mean_temp,-0.8052817277148236
+135,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,allfeatures,Max_temp,-0.2069196817248804
+136,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,onlytempfeatures,Max_temp,-0.21620767052083414
+137,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,wind_rainfeatures,Max_temp,-0.8025204114280523
+138,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,allfeatures,Min_temp,-0.18514363913351647
+139,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,onlytempfeatures,Min_temp,-0.18884023009584516
+140,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,wind_rainfeatures,Min_temp,-0.7935986076612255
+141,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,allfeatures,Mean_temp,-0.176586560773123
+142,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,onlytempfeatures,Mean_temp,-0.1841972961047436
+143,"RandomForestRegressor(max_depth=15, n_estimators=150)",7,wind_rainfeatures,Mean_temp,-0.7975284308521463
+144,"MLPRegressor(max_iter=1500, solver='sgd')",0,allfeatures,Max_temp,-0.2275640990185473
+145,"MLPRegressor(max_iter=1500, solver='sgd')",0,onlytempfeatures,Max_temp,-0.2280226428670257
+146,"MLPRegressor(max_iter=1500, solver='sgd')",0,wind_rainfeatures,Max_temp,-0.8634225749782051
+147,"MLPRegressor(max_iter=1500, solver='sgd')",0,allfeatures,Min_temp,-0.19138815331583986
+148,"MLPRegressor(max_iter=1500, solver='sgd')",0,onlytempfeatures,Min_temp,-0.19489166854834503
+149,"MLPRegressor(max_iter=1500, solver='sgd')",0,wind_rainfeatures,Min_temp,-0.8534383920022147
+150,"MLPRegressor(max_iter=1500, solver='sgd')",0,allfeatures,Mean_temp,-0.18311628163887977
+151,"MLPRegressor(max_iter=1500, solver='sgd')",0,onlytempfeatures,Mean_temp,-0.1860099746279248
+152,"MLPRegressor(max_iter=1500, solver='sgd')",0,wind_rainfeatures,Mean_temp,-0.8607580924884646
+153,"MLPRegressor(max_iter=1500, solver='sgd')",1,allfeatures,Max_temp,-0.22490475104130386
+154,"MLPRegressor(max_iter=1500, solver='sgd')",1,onlytempfeatures,Max_temp,-0.23201856440234575
+155,"MLPRegressor(max_iter=1500, solver='sgd')",1,wind_rainfeatures,Max_temp,-0.8517764264702874
+156,"MLPRegressor(max_iter=1500, solver='sgd')",1,allfeatures,Min_temp,-0.19971914419203377
+157,"MLPRegressor(max_iter=1500, solver='sgd')",1,onlytempfeatures,Min_temp,-0.2058266058663718
+158,"MLPRegressor(max_iter=1500, solver='sgd')",1,wind_rainfeatures,Min_temp,-0.840090099688328
+159,"MLPRegressor(max_iter=1500, solver='sgd')",1,allfeatures,Mean_temp,-0.18803696532142938
+160,"MLPRegressor(max_iter=1500, solver='sgd')",1,onlytempfeatures,Mean_temp,-0.19500716443239802
+161,"MLPRegressor(max_iter=1500, solver='sgd')",1,wind_rainfeatures,Mean_temp,-0.8507886444480854
+162,"MLPRegressor(max_iter=1500, solver='sgd')",2,allfeatures,Max_temp,-0.22355060589612447
+163,"MLPRegressor(max_iter=1500, solver='sgd')",2,onlytempfeatures,Max_temp,-0.22539721534547721
+164,"MLPRegressor(max_iter=1500, solver='sgd')",2,wind_rainfeatures,Max_temp,-0.8456271287758275
+165,"MLPRegressor(max_iter=1500, solver='sgd')",2,allfeatures,Min_temp,-0.1993487936188441
+166,"MLPRegressor(max_iter=1500, solver='sgd')",2,onlytempfeatures,Min_temp,-0.19582087151167368
+167,"MLPRegressor(max_iter=1500, solver='sgd')",2,wind_rainfeatures,Min_temp,-0.8377219109858268
+168,"MLPRegressor(max_iter=1500, solver='sgd')",2,allfeatures,Mean_temp,-0.18730972160431789
+169,"MLPRegressor(max_iter=1500, solver='sgd')",2,onlytempfeatures,Mean_temp,-0.19000070762621163
+170,"MLPRegressor(max_iter=1500, solver='sgd')",2,wind_rainfeatures,Mean_temp,-0.841256008679992
+171,"MLPRegressor(max_iter=1500, solver='sgd')",3,allfeatures,Max_temp,-0.22879939042820033
+172,"MLPRegressor(max_iter=1500, solver='sgd')",3,onlytempfeatures,Max_temp,-0.22425492401746108
+173,"MLPRegressor(max_iter=1500, solver='sgd')",3,wind_rainfeatures,Max_temp,-0.8339958987677104
+174,"MLPRegressor(max_iter=1500, solver='sgd')",3,allfeatures,Min_temp,-0.2006949304067545
+175,"MLPRegressor(max_iter=1500, solver='sgd')",3,onlytempfeatures,Min_temp,-0.19739703134143208
+176,"MLPRegressor(max_iter=1500, solver='sgd')",3,wind_rainfeatures,Min_temp,-0.8258389833716153
+177,"MLPRegressor(max_iter=1500, solver='sgd')",3,allfeatures,Mean_temp,-0.19491210131473805
+178,"MLPRegressor(max_iter=1500, solver='sgd')",3,onlytempfeatures,Mean_temp,-0.1911148946054507
+179,"MLPRegressor(max_iter=1500, solver='sgd')",3,wind_rainfeatures,Mean_temp,-0.8337803007892782
+180,"MLPRegressor(max_iter=1500, solver='sgd')",4,allfeatures,Max_temp,-0.2298544955079575
+181,"MLPRegressor(max_iter=1500, solver='sgd')",4,onlytempfeatures,Max_temp,-0.22379383229415134
+182,"MLPRegressor(max_iter=1500, solver='sgd')",4,wind_rainfeatures,Max_temp,-0.8311681337187871
+183,"MLPRegressor(max_iter=1500, solver='sgd')",4,allfeatures,Min_temp,-0.20348683984270127
+184,"MLPRegressor(max_iter=1500, solver='sgd')",4,onlytempfeatures,Min_temp,-0.19766517352145385
+185,"MLPRegressor(max_iter=1500, solver='sgd')",4,wind_rainfeatures,Min_temp,-0.8214070110538236
+186,"MLPRegressor(max_iter=1500, solver='sgd')",4,allfeatures,Mean_temp,-0.1987042899172589
+187,"MLPRegressor(max_iter=1500, solver='sgd')",4,onlytempfeatures,Mean_temp,-0.1908361967422959
+188,"MLPRegressor(max_iter=1500, solver='sgd')",4,wind_rainfeatures,Mean_temp,-0.8249448203128997
+189,"MLPRegressor(max_iter=1500, solver='sgd')",5,allfeatures,Max_temp,-0.23257578572785906
+190,"MLPRegressor(max_iter=1500, solver='sgd')",5,onlytempfeatures,Max_temp,-0.22338750277071426
+191,"MLPRegressor(max_iter=1500, solver='sgd')",5,wind_rainfeatures,Max_temp,-0.8247490513043918
+192,"MLPRegressor(max_iter=1500, solver='sgd')",5,allfeatures,Min_temp,-0.20770592337162697
+193,"MLPRegressor(max_iter=1500, solver='sgd')",5,onlytempfeatures,Min_temp,-0.20050382626373703
+194,"MLPRegressor(max_iter=1500, solver='sgd')",5,wind_rainfeatures,Min_temp,-0.8196065909791249
+195,"MLPRegressor(max_iter=1500, solver='sgd')",5,allfeatures,Mean_temp,-0.2041534999417598
+196,"MLPRegressor(max_iter=1500, solver='sgd')",5,onlytempfeatures,Mean_temp,-0.1902454897567771
+197,"MLPRegressor(max_iter=1500, solver='sgd')",5,wind_rainfeatures,Mean_temp,-0.8200393985234452
+198,"MLPRegressor(max_iter=1500, solver='sgd')",6,allfeatures,Max_temp,-0.23696145553283018
+199,"MLPRegressor(max_iter=1500, solver='sgd')",6,onlytempfeatures,Max_temp,-0.22378739965865688
+200,"MLPRegressor(max_iter=1500, solver='sgd')",6,wind_rainfeatures,Max_temp,-0.8150820245727595
+201,"MLPRegressor(max_iter=1500, solver='sgd')",6,allfeatures,Min_temp,-0.2113195368001633
+202,"MLPRegressor(max_iter=1500, solver='sgd')",6,onlytempfeatures,Min_temp,-0.19769942761489287
+203,"MLPRegressor(max_iter=1500, solver='sgd')",6,wind_rainfeatures,Min_temp,-0.8056531816929551
+204,"MLPRegressor(max_iter=1500, solver='sgd')",6,allfeatures,Mean_temp,-0.20098307208991611
+205,"MLPRegressor(max_iter=1500, solver='sgd')",6,onlytempfeatures,Mean_temp,-0.19503047198684434
+206,"MLPRegressor(max_iter=1500, solver='sgd')",6,wind_rainfeatures,Mean_temp,-0.8209494498649749
+207,"MLPRegressor(max_iter=1500, solver='sgd')",7,allfeatures,Max_temp,-0.23537666403506458
+208,"MLPRegressor(max_iter=1500, solver='sgd')",7,onlytempfeatures,Max_temp,-0.2239168935513472
+209,"MLPRegressor(max_iter=1500, solver='sgd')",7,wind_rainfeatures,Max_temp,-0.8164378987112905
+210,"MLPRegressor(max_iter=1500, solver='sgd')",7,allfeatures,Min_temp,-0.2133603183066482
+211,"MLPRegressor(max_iter=1500, solver='sgd')",7,onlytempfeatures,Min_temp,-0.2006289607724288
+212,"MLPRegressor(max_iter=1500, solver='sgd')",7,wind_rainfeatures,Min_temp,-0.8152100878720783
+213,"MLPRegressor(max_iter=1500, solver='sgd')",7,allfeatures,Mean_temp,-0.20291756660726157
+214,"MLPRegressor(max_iter=1500, solver='sgd')",7,onlytempfeatures,Mean_temp,-0.19355834460150376
+215,"MLPRegressor(max_iter=1500, solver='sgd')",7,wind_rainfeatures,Mean_temp,-0.8197783243265148
